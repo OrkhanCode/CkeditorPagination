@@ -20,7 +20,7 @@ namespace Fiorello_backend.Data
         public DbSet<Position> Positions { get; set; }
         public DbSet<Expert> Experts { get; set; }
         public DbSet<Customer> Customers { get; set; }
-        public DbSet<Setting> Settings { get; set; }
+        public DbSet<Setting> Settings { get; set; } 
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
